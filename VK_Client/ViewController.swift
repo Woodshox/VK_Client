@@ -9,7 +9,7 @@ import UIKit
 
 class ViewController: UIViewController {
     
-    
+    let fromLoginToTabBar = "fromLoginToTabBar"
     
     @IBOutlet weak var imageVK: UIImageView!
     @IBOutlet weak var titleLabel: UILabel!
@@ -24,19 +24,21 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
 
+    
     @IBAction func pressButton(_ sender: Any) {
-        
-        if loginTextField.text == "admin",
-           passwordTextField.text == "123"{
-            print("OK")
-        }
+        guard let login = loginTextField.text,
+              let password = passwordTextField.text
         else{
             print("Error")
+            return
+        }
+        
+        if login == "admin" && password == "123"{
+            performSegue(withIdentifier: fromLoginToTabBar, sender: nil)
+        }
+        else{
+            performSegue(withIdentifier: "fromLoginToError", sender: nil)
         }
     }
-    
-    
-    
-    
 }
 
