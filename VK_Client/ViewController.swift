@@ -26,19 +26,18 @@ class ViewController: UIViewController {
 
     
     @IBAction func pressButton(_ sender: Any) {
-        guard let login = loginTextField.text,
-              let password = passwordTextField.text
-        else{
-            print("Error")
-            return
-        }
+//        guard let login = loginTextField.text,
+//              let password = passwordTextField.text
+//        else {
+//            return
+//        }
         
-        if login == "admin" && password == "123"{
+       //if login == "admin" && password == "123"{
             performSegue(withIdentifier: fromLoginToTabBar, sender: nil)
-        }
-        else{
-            performSegue(withIdentifier: "fromLoginToError", sender: nil)
-        }
+//        }
+//        else{
+//            performSegue(withIdentifier: "fromLoginToError", sender: nil)
+//        }
     }
 }
 
