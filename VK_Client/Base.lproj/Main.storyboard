@@ -111,51 +111,20 @@
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="enterButton" destination="2NX-S4-EJi" id="Dzh-HH-8KN"/>
                         <outlet property="imageVK" destination="KFH-M9-BiD" id="YFP-XJ-yu5"/>
                         <outlet property="loginLabel" destination="9ik-Dp-XYD" id="f6f-Du-SMv"/>
                         <outlet property="loginTextField" destination="qzG-Zk-bIM" id="Ulw-yK-6nd"/>
                         <outlet property="passwordLabel" destination="amf-X6-Oug" id="xUk-qP-acG"/>
                         <outlet property="passwordTextField" destination="yp5-H1-3I2" id="mlm-MW-Jva"/>
+                        <outlet property="scrollView" destination="Pj0-TU-QNr" id="7FQ-Iu-xSm"/>
                         <outlet property="titleLabel" destination="kkZ-dx-t4g" id="b6B-CF-Ht5"/>
                         <segue destination="1dB-5b-dka" kind="presentation" identifier="fromLoginToTabBar" modalPresentationStyle="fullScreen" id="dEn-dF-ths"/>
-                        <segue destination="zCf-qK-18P" kind="show" identifier="fromLoginToError" id="Dei-FE-sqx"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="30" y="89"/>
-        </scene>
-        <!--View Controller-->
-        <scene sceneID="D5I-wO-sI6">
-            <objects>
-                <viewController id="zCf-qK-18P" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="Kx1-dT-DAG">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Login or Password is incorrect" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NQS-da-WMh">
-                                <rect key="frame" x="107" y="321" width="200" height="200"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="200" id="BJy-1f-zOy"/>
-                                    <constraint firstAttribute="height" constant="200" id="rSU-Ut-Mjj"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                        </subviews>
-                        <viewLayoutGuide key="safeArea" id="BpJ-QS-c9i"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                        <constraints>
-                            <constraint firstItem="NQS-da-WMh" firstAttribute="centerY" secondItem="Kx1-dT-DAG" secondAttribute="centerY" id="0ZA-31-lOR"/>
-                            <constraint firstItem="NQS-da-WMh" firstAttribute="centerX" secondItem="Kx1-dT-DAG" secondAttribute="centerX" id="3hR-QS-Bd4"/>
-                        </constraints>
-                    </view>
-                    <navigationItem key="navigationItem" id="wSF-x1-3b2"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Alm-jR-2Lo" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="29" y="860"/>
+            <point key="canvasLocation" x="-272" y="82"/>
         </scene>
         <!--Main Tab Bar Controller-->
         <scene sceneID="8eo-jR-abR">
