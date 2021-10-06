@@ -9,8 +9,8 @@ import UIKit
 
 
 struct Group {
-    var titile: String
-    var avatar: UIImage
-    var discription: String?
+    var groupName: String
+    var groupImage: UIImage?
+    
 }
 
