@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1729F160270DB5B8002ABEB6 /* 123123.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1729F15F270DB5B8002ABEB6 /* 123123.swift */; };
 		174079C326C2A5A50006178B /* Friends.swift in Sources */ = {isa = PBXBuildFile; fileRef = 174079C226C2A5A50006178B /* Friends.swift */; };
 		1789EAC32659102300648551 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1789EAC22659102300648551 /* AppDelegate.swift */; };
 		1789EAC52659102300648551 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1789EAC42659102300648551 /* SceneDelegate.swift */; };
@@ -28,7 +27,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		1729F15F270DB5B8002ABEB6 /* 123123.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 123123.swift; sourceTree = "<group>"; };
 		174079C226C2A5A50006178B /* Friends.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Friends.swift; sourceTree = "<group>"; };
 		1789EABF2659102300648551 /* VK_Client.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VK_Client.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1789EAC22659102300648551 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -90,7 +88,6 @@
 				1789EACB2659102600648551 /* Assets.xcassets */,
 				1789EACD2659102600648551 /* LaunchScreen.storyboard */,
 				1789EAD02659102600648551 /* Info.plist */,
-				1729F15F270DB5B8002ABEB6 /* 123123.swift */,
 			);
 			path = VK_Client;
 			sourceTree = "<group>";
@@ -214,7 +211,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				17DBC3FC26C17E84001C50DC /* AnotherFriendsViewController.swift in Sources */,
-				1729F160270DB5B8002ABEB6 /* 123123.swift in Sources */,
 				178A11A726C28DD60096724C /* DescriptionCollectionViewCell.swift in Sources */,
 				17CB971026CBA5AD00F91E69 /* DescriptionGroupsViewController.swift in Sources */,
 				17CB971326CBB06700F91E69 /* GroupsTableViewCell.swift in Sources */,
